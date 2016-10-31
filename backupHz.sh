@@ -10,6 +10,10 @@ svgPrefix=$3
 # Chemin du repertoire a sauvegarder récursivement
 svgPath2Save=$4
 
+# exemple
+# sh backupHz.sh day /home/webadmin/svg/day artaxi /var/www/sites/artaxi
+# va créer le fichier : artaxi-1.tar.gz
+
 echo $svgFreq
 case  $svgFreq in
 	"day")
